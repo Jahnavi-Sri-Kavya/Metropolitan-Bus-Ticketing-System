@@ -1,0 +1,62 @@
+.button{
+  background:#00008b ;
+  width: 90%;
+  height: 50px;
+  font-size: 20px;
+  margin-left: 13px;
+  margin-top: 10px;
+  color:white;
+  }
+.button:hover {
+  background-color: red;
+  color: white;
+  }
+
+h1{
+color:#00008b;
+}
+
+p{
+font-size:30px;
+font-family:verdana;
+font-weight:20;
+color:#00008b;
+text-shadow:1px 1px lightgrey;
+}
+font{
+font-size:20px;
+font-family:verdana;
+color:#00008b;
+text-shadow:1px 1px lightgrey;
+}
+.para{
+font-size:20px;
+font-family:verdana;
+color:black;
+text-shadow:1px 1px lightgrey;
+}
+a:hover{
+color:red
+}
+div{
+margin:auto;
+background-color:white;
+width:400px;
+height:500px
+}
+table{
+
+border-spacing: 15px;
+}
+text{
+width:160px;height:22px;
+}
+
+.biginp{
+style=width:250px;
+padding: 12px 20px;
+margin: 8px 0;display:inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}

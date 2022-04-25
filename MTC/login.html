@@ -1,0 +1,49 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href=proj.css>
+<script>
+function reset_function()
+{
+document.getElementById("form1").reset();
+}
+</script>
+</head>
+
+
+<br>
+
+
+<body align=center><br>
+<div>
+<form id="form1" action="login.php" method="post" align="center">
+<font align="center">
+<table align="center">
+<caption><img src=icon.png width=80 height=80><br><font>SIGN IN </font></caption>
+<tr><td></td></tr>
+<tr><td></td></tr>
+<tr>
+<td align="left"><label>Username: </label></td>
+
+<td align="center"><input type="text" name="username" required></td></tr>
+
+<tr><td align="left"><label>Password: </label></td>
+
+<td><input type="password" name="password" required></td></tr>
+
+<tr rowspan="2" align="center">
+<td>
+<button style="width:100px;" name="submit">Submit</button></td>
+<td>
+<button style="width:100px;" onclick="reset_function()">Clear</button></td></tr>
+<tr><td>New User?</td><td><a href=signup.html><font>SIGNUP</font></a></td></tr>
+</table>
+</font>
+</form>
+</div>
+</body>
+</html>
+
+
+
+
+

@@ -1,0 +1,23 @@
+.ticketbox{
+display:inline-block;
+margin:2px solid black;
+border:1px solid black;
+padding:20px;
+background-color:white;
+width:400px;
+height:900px
+}
+.headding{
+font-size:21px;
+font-family:verdana;
+font-weight:20;
+color:black;
+text-shadow:1px 1px lightgrey;
+}
+.ticket{
+font-size:20px;
+font-family:verdana;
+font-weight:10;
+color:black;
+text-shadow:1px 1px lightgrey;
+}

@@ -1,0 +1,49 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href=projectstyle2.css>
+<script>
+function reset_function()
+{
+document.getElementById("form2").reset();
+}
+</script>
+</head>
+
+
+<br>
+<body style="background-image:url('busbackground.jpg');background-repeat:no-repeat;background-attachment:local;background-position:right;background-size:1100px 500px;">
+<br>
+<br>
+<font>
+<form id="form2" action="signup.php" method="post">
+<table align="center">
+<caption><font>Registration</font></caption>
+<tr>
+<td align="left"><label>Login name: </label></td>
+<td align="center"><input type="text" name="loginname" required></td></tr>
+<tr align="center">
+<td align="left"><label>Full Name: </label></td>
+<td><input type="text" name="fullname" required></td></tr>
+<tr align="center">
+<td align="left"><label>E-mail: </label></td>
+<td><input type="mail"name="email" required></td></tr>
+<tr align="center">
+<td align="left"><label>Phone number: </label></td>
+<td><input type="tel" name="phno" required></td></tr>
+<tr align="center">
+<td align="left"><label>Password: </label></td>
+<td><input type="password" name="password" required></td></tr>
+<tr align="center">
+<td align="left"><label>Re-enter password: </label></td>
+<td><input type="password" name="repassword" required></td></tr>
+<tr rowspan="2" align="center"><td >
+<button style="width:100%;">Submit</button></td>
+<td><button style="width:60%;" onclick="reset_function()" >Clear</button></td></tr>
+</table>
+</form>
+</font>
+
+
+
+</body>
+</html>
